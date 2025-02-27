@@ -84,7 +84,7 @@ def create_table():
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         expense VARCHAR(255) NOT NULL,
         sum INTEGER,
-        date DATETIME DEFAULT UTC_TIMESTAMP
+        date DATETIME DEFAULT CURRENT_TIMESTAMP
     )'''
     return query
 
