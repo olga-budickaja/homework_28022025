@@ -3,7 +3,7 @@
 
 import sqlite3
 
-connection = sqlite3.connect('task1.sqllite3')
+connection = sqlite3.connect('db.sqllite3')
 cursor = connection.cursor()
 
 def init_db():
@@ -11,7 +11,7 @@ def init_db():
     add_values('продукти', 980)
     add_values('канцелярія', 3470)
     add_values('одяг', 35000)
-    
+
 def commit_decorator(func):
     def wrapper(*args, **kwargs):
         query = func(*args, **kwargs)
