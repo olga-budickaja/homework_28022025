@@ -6,7 +6,7 @@ import sqlite3
 
 
 #interface
-menu = '''1. Сума витрат за місяць.\n2. Сума прибутків за місяць.\n2. Вихід'''
+menu = '''1. Сума витрат за місяць.\n2. Сума прибутків за місяць.\n3. Вихід'''
 
 def get_menu_choice(menu: str, min_option: int, max_option: int) -> int:
     while True:

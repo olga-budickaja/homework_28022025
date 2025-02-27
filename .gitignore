@@ -175,4 +175,5 @@ cython_debug/
 
 key.py
 
-db.sqlite3
+db.sqllite3
+env.py
