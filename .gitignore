@@ -175,4 +175,4 @@ cython_debug/
 
 key.py
 
-.sqllite3
+*.sqlite3
